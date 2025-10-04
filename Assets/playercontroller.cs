@@ -42,7 +42,7 @@ public class playercontroller : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        rb.AddForce(new Vector2(0, 200));
+        rb.AddForce(new Vector2(100, 200));
         Debug.Log("bounce");
     }
 
